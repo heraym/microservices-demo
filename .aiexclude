@@ -1,0 +1,8 @@
+#Block all files with .key extensions
+*.key
+
+#Block all files under sensitive/dir
+my/sensitive/dir/
+
+#Block all .key files under sensitive/dir
+my/sensitive/dir/ /.key
